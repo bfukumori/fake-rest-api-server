@@ -1,0 +1,14 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "A fake REST API server using json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json"
+  },
+  "author": "Bruno Fukumori",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
